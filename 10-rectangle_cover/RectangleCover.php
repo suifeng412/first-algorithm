@@ -1,6 +1,4 @@
 <?php
-
-
 function rectCover($number)
 {
     $prePreNum = 1;
