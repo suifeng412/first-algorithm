@@ -1,5 +1,5 @@
 // 方法一
-public class Solution {
+public class ReplaceBlankSpace {
     public String replaceSpace(StringBuffer str) {
         if(str == null){
             return null;
@@ -26,7 +26,7 @@ public class Solution {
       从前往后替换，后面的字符要不断往后移动，要多次移动，所以效率低下
       从后往前，先计算需要多少空间，然后从后往前移动，则每个字符只为移动一次，这样效率更高一点。
 */
-public class Solution {
+class ReplaceBlankSpace_2 {
     public String replaceSpace(StringBuffer str) {
         int spacenum = 0;                            //spacenum为计算空格数
         for(int i=0;i<str.length();i++){

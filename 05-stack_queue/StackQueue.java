@@ -7,7 +7,7 @@
 */
 import java.util.Stack;
  
-public class Solution {
+public class StackQueue {
     Stack<Integer> stack1 = new Stack<Integer>();
     Stack<Integer> stack2 = new Stack<Integer>();
      

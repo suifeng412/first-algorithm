@@ -2,7 +2,7 @@
 1、尽量避免使用递归，当系统采用一个超大的n来测试时将会Stack Overflow
 2、使用迭代方式
 */
-public class Solution {
+public class fibonacci {
     public int Fibonacci(int n) {         
         int fn1 = 1;
         int fn2 = 1;  
